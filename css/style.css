@@ -38,11 +38,10 @@ a:hover { color: var(--color-accent-hover); }
 .container--narrow { max-width: var(--content-width); margin: 0 auto; padding: 0 2rem; }
 
 /* ============================================
-   Header - Sticky with green accent border
+   Header - Green accent border
    ============================================ */
 .site-header {
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 100;
   background: var(--color-bg);
   border-bottom: 2px solid var(--color-accent);
