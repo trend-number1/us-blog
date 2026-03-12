@@ -58,7 +58,7 @@ a:hover { color: var(--color-accent-hover); }
   display: flex;
   gap: 0.25rem;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .lang-link {
@@ -640,6 +640,19 @@ a:hover { color: var(--color-accent-hover); }
   .site-nav {
     gap: 1.25rem;
     flex-wrap: wrap;
+  }
+
+  .lang-bar-inner {
+    justify-content: flex-start;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 0 1rem;
+  }
+
+  .lang-bar-inner::-webkit-scrollbar {
+    display: none;
   }
 
   .footer-grid {
