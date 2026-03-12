@@ -49,6 +49,38 @@ a:hover { color: var(--color-accent-hover); }
   padding: 0.875rem 0;
 }
 
+.lang-bar {
+  background: var(--color-dark);
+  padding: 0.4rem 0;
+}
+
+.lang-bar-inner {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lang-link {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lang-link:hover {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+}
+
+.lang-link.active {
+  background: var(--color-accent);
+  color: #fff;
+}
+
 .site-header .container {
   display: flex;
   justify-content: space-between;
