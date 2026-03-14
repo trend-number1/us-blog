@@ -92,9 +92,16 @@ a:hover { color: var(--color-accent-hover); }
   color: var(--color-text);
   text-decoration: none;
   letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
 }
 
-.site-title:hover { color: var(--color-accent); }
+.site-logo {
+  height: 44px;
+  width: auto;
+}
+
+.site-title:hover { opacity: 0.8; }
 
 .site-nav {
   display: flex;
