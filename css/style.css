@@ -297,14 +297,26 @@ a:hover { color: var(--color-accent-hover); }
    ============================================ */
 .post {
   padding: 2.5rem 0 3rem;
+  overflow: hidden;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-featured-image-wrap {
+  width: 100%;
+  overflow: hidden;
+  margin: 2rem 0;
 }
 
 .post-featured-image {
+  display: block;
   width: 100%;
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  margin: 1.25rem 0;
 }
 
 .hero-featured__image-link { display: block; margin-bottom: 1rem; }
