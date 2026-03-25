@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trend-number1.github.io/us-blog/sitemap.xml
